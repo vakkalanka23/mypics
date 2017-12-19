@@ -1,0 +1,423 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T00:01:43.872Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T00:01:44.064Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T00:01:44.074Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T00:01:44.108Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:07:18.061Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:30:34.134Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T00:30:34.135Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:30:39.959Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:30:40.213Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:30:40.213Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:31:04.717Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:31:04.718Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:31:59.726Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:31:59.726Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:32:54.664Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:32:54.665Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:33:17.948Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:33:17.949Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:33:49.863Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:33:49.864Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:34:01.703Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:34:01.703Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:34:16.712Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-19T00:34:16.715Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:35:52.757Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:35:52.758Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:36:27.960Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-19T00:36:27.962Z"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: todo-dev.todos index: description_1 dup key: { : \\\"a\\\" }\",\"op\":{\"description\":\"a\",\"userId\":\"5a385daa41d5900880b01767\",\"priority\":\"Low\",\"todo\":\"a\",\"_id\":\"5a385f0b41d5900880b01769\",\"completed\":false,\"datedue\":\"2017-12-20T06:00:00.000Z\",\"dateCreated\":\"2017-12-19T00:36:27.963Z\",\"__v\":0}})\n    at Function.MongoError.create (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\app\\controllers\\todos.js:60:13\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\express\\lib\\router\\index.js:317:13)","timestamp":"2017-12-19T00:36:28.008Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:36:28.034Z"}
+{"level":"verbose","message":"Upload file for todo undefined and 5a385daa41d5900880b01767","timestamp":"2017-12-19T00:36:28.087Z"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"todos\"\n    at new CastError (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType._castForQuery (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\schematype.js:1088:15)\n    at ObjectId.castForQuery (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\schematype.js:1045:15)\n    at cast (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Query.cast (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\query.js:3302:12)\n    at model.Query.Query._castConditions (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\query.js:1292:10)\n    at model.Query.Query._findOne (C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\mongoose\\lib\\query.js:1504:8)\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\kareem\\index.js:250:8\n    at C:\\Users\\Varun\\Desktop\\TODO\\server\\node_modules\\kareem\\index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","timestamp":"2017-12-19T00:36:28.103Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:36:31.681Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:36:31.682Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:36:56.715Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-19T00:36:56.717Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:36:56.757Z"}
+{"level":"verbose","message":"Upload file for todo 5a385f2841d5900880b0176a and 5a385daa41d5900880b01767","timestamp":"2017-12-19T00:36:56.791Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:01.507Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:37:01.508Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:03.299Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:03.417Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:08.510Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a385e8841d5900880b01768","timestamp":"2017-12-19T00:37:08.513Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:32.992Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a385f2841d5900880b0176a","timestamp":"2017-12-19T00:37:32.996Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:33.046Z"}
+{"level":"verbose","message":"Upload file for todo 5a385f2841d5900880b0176a and 5a385daa41d5900880b01767","timestamp":"2017-12-19T00:37:33.084Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:35.950Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-19T00:37:35.951Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:37:37.345Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T00:39:30.159Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T00:39:30.509Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T00:39:30.523Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T00:39:30.547Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T00:40:06.086Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T00:40:06.355Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T00:40:06.370Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T00:40:06.394Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T00:43:48.729Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T00:43:48.956Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T00:43:48.967Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:43:59.942Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:44:00.001Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:44:00.005Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T00:44:00.512Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:20:37.336Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:20:37.581Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:20:37.591Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:22:47.632Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:22:47.841Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:22:47.851Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:23:08.250Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:23:08.523Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:23:08.532Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:24:35.255Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:24:35.685Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:24:35.705Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:30:03.959Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:30:04.155Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:30:04.165Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T02:30:04.188Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T02:32:06.436Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T02:32:27.525Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T02:32:27.779Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T02:32:27.788Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T02:32:27.805Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:27:13.914Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T03:27:13.946Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:27:18.796Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:27:19.060Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:27:44.764Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:27:52.369Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:17.280Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:17.371Z"}
+{"level":"verbose","message":"Upload file for 5a38873045655d1d348c03c0 and 5a3887c945655d1d348c03c1","timestamp":"2017-12-19T03:30:17.438Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:22.997Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:25.046Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:27.085Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:29.177Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:30:57.146Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:31:04.583Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:31:11.136Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:31:17.685Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:31:19.464Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:32:00.724Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:32:00.767Z"}
+{"level":"verbose","message":"Upload file for 5a38880545655d1d348c03c2 and 5a38883045655d1d348c03c3","timestamp":"2017-12-19T03:32:00.794Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:38:54.441Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:38:54.471Z"}
+{"level":"verbose","message":"Upload file for 5a38880545655d1d348c03c2 and 5a3889ce45655d1d348c03c4","timestamp":"2017-12-19T03:38:54.476Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:03.587Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:06.844Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:08.516Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:11.398Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:14.809Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:17.708Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:39:24.109Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:41:18.641Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:41:18.685Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:41:18.695Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:41:36.735Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:42:04.350Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T03:42:04.351Z"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: mypics-dev.users index: email_1 dup key: { : \\\"d\\\" }\",\"op\":{\"firstName\":\"d\",\"lastName\":\"d\",\"email\":\"d\",\"password\":\"$2a$10$PR/wq.4uq8S2qLIen2SdcuzUvdra6uYe1v1LtD9ydk/0Yn./AytFe\",\"_id\":\"5a388a8c45655d1d348c03c5\",\"Status\":true,\"dateregistered\":\"2017-12-19T03:42:04.351Z\",\"__v\":0}})\n    at Function.MongoError.create (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\app\\controllers\\users.js:52:10\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\Users\\Varun\\Desktop\\mypics\\server\\node_modules\\express\\lib\\router\\index.js:174:3)","timestamp":"2017-12-19T03:42:04.480Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:42:10.521Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:42:10.666Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:42:13.798Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:42:57.646Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:43:17.648Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:43:59.359Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:44:56.605Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:45:16.749Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T03:46:02.950Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:06:22.981Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:06:40.247Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:07:03.465Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:08:27.940Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:08:45.265Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:09:05.162Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:09:23.010Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:09:53.114Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:10:05.424Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:11:26.389Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:11:47.753Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:12:11.941Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:12:42.610Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:12:58.520Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:13:32.922Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:14:08.062Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:14:20.502Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:14:31.544Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:15:02.705Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:15:26.539Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:15:41.033Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:15:55.295Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:16:13.642Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:21:46.455Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:22:13.316Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:22:59.809Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:23:05.581Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:23:07.609Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:23:23.726Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:23:45.384Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:24:07.930Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:24:50.078Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:25:09.787Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:25:56.000Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:26:12.503Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:26:43.580Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:27:03.928Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:27:30.907Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:15.681Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:39.355Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:39.383Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:39.389Z"}
+{"level":"verbose","message":"Upload file for 5a38905045655d1d348c03c6 and 5a38957745655d1d348c03c8","timestamp":"2017-12-19T04:28:39.394Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:42.603Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:28:42.641Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:20.605Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:20.629Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:20.636Z"}
+{"level":"verbose","message":"Upload file for 5a38905045655d1d348c03c6 and 5a3895a045655d1d348c03c9","timestamp":"2017-12-19T04:29:20.639Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:23.562Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:23.601Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:29:23.602Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:30:19.787Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:30:38.888Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:30:43.144Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:30:43.180Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:30:43.182Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:31:40.235Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:31:40.278Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:31:40.279Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:03.616Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:34.311Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T04:32:34.313Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:38.897Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:39.053Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:46.572Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:48.961Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:59.551Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:59.571Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:32:59.577Z"}
+{"level":"verbose","message":"Upload file for 5a38966e45655d1d348c03cb and 5a38967b45655d1d348c03cc","timestamp":"2017-12-19T04:32:59.581Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:09.220Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:09.230Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:12.036Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:12.074Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:12.074Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:15.831Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:15.871Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:15.872Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:18.580Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:25.114Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:25.133Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:25.142Z"}
+{"level":"verbose","message":"Upload file for 5a38966e45655d1d348c03cb and 5a38969545655d1d348c03ce","timestamp":"2017-12-19T04:33:25.147Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:27.113Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:27.155Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:27.156Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:33:59.155Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T04:35:58.052Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T05:02:00.456Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T05:02:00.660Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T05:02:00.677Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T05:02:00.696Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:02:26.667Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:02:26.750Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:02:26.753Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:03:29.116Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T05:03:29.151Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:03:35.961Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:03:36.173Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:03:46.127Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:03:55.418Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:04:08.840Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:01.919Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:01.939Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:01.946Z"}
+{"level":"verbose","message":"Upload file for 5a389dbb207d3405c89fbe3e and 5a389e39207d3405c89fbe3f","timestamp":"2017-12-19T05:06:01.985Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:04.649Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:04.690Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:06:07.462Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:15:20.495Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:15:20.520Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:15:22.076Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:29:27.580Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:29:27.751Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:31:31.220Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:32:04.582Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:32:14.745Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:33:25.353Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:33:41.646Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:33:46.207Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:34:39.251Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:35:48.860Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:36:10.046Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:37:17.975Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:37:21.513Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:37:36.309Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:43:27.990Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:43:37.304Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:44:31.494Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:44:57.562Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:45:01.062Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:45:02.063Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:45:08.472Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T05:48:37.896Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T05:48:38.224Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T05:48:38.247Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T05:48:38.276Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T05:48:45.458Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T05:48:45.655Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T05:48:45.666Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T05:48:45.681Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:51:22.090Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:51:33.283Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:52:31.838Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:52:51.321Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:53:17.462Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:54:48.798Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:54:57.740Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:55:05.082Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:55:59.543Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:56:14.468Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:56:40.025Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:58:35.442Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:58:57.612Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:59:26.304Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T05:59:45.287Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:00:29.427Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:00:45.188Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:00:58.909Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:01:18.593Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:01:29.275Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:01:34.309Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:01:38.857Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:02:28.798Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:02:52.057Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:02:58.649Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:03:09.310Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:03:15.026Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:03:18.659Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:03:28.720Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:04:02.164Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:04:31.616Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:05:15.655Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:05:15.693Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:05:15.711Z"}
+{"level":"verbose","message":"Upload file for 5a38ab2e59975224c8c0f0a6 and 5a38ac1b59975224c8c0f0a7","timestamp":"2017-12-19T06:05:15.919Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:05:23.627Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:05:23.696Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:30.629Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:30.679Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:37.220Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:41.599Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:43.383Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:44.455Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:06:44.492Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:27.243Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:27.284Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:43.962Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:43.998Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:44.010Z"}
+{"level":"verbose","message":"Upload file for 5a38ab2e59975224c8c0f0a6 and 5a38acaf59975224c8c0f0a8","timestamp":"2017-12-19T06:07:44.037Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:46.820Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:46.861Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:07:46.862Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:08:44.113Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:08:44.168Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:08:44.177Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:09.640Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:09.683Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:09.683Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:51.313Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:51.358Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:09:51.361Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:06.987Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:07.026Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:07.028Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:32.948Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:32.999Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:33.000Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:58.876Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:58.943Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:10:58.944Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:11:38.392Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:11:38.446Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:11:38.449Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:12:30.398Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:12:30.461Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:12:30.462Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:33.779Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:33.877Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:33.883Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:41.898Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:41.961Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:41.963Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:46.351Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:47.910Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:50.569Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:51.610Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:51.658Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:14:51.661Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:15:21.155Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:15:21.198Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:15:21.200Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:16:14.102Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:16:14.173Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:16:14.175Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:16:21.042Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:16:56.161Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T06:17:18.711Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T06:17:18.910Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T06:17:18.920Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T06:17:18.955Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:17:55.625Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:08.903Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:09.175Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:32.547Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:32.697Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:32.698Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:33.948Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:39.190Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:39.429Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:40.920Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:40.983Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:40.989Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:18:53.802Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-19T06:58:46.260Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-19T06:58:46.857Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-19T06:58:46.891Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-19T06:58:46.967Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:01.117Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:01.202Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:01.215Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:01.675Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:01.717Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:07.493Z"}
+{"level":"error","message":"","timestamp":"2017-12-19T06:59:07.578Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:23.233Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-19T06:59:23.237Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:25.490Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:25.710Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:39.841Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:42.603Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:59.841Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:59.896Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T06:59:59.900Z"}
+{"level":"verbose","message":"Upload file for 5a38b8dbbb2d69187cb0dc09 and 5a38b8efbb2d69187cb0dc0a","timestamp":"2017-12-19T07:00:00.075Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:18.055Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:18.069Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:18.073Z"}
+{"level":"verbose","message":"Upload file for 5a38b8dbbb2d69187cb0dc09 and 5a38b902bb2d69187cb0dc0b","timestamp":"2017-12-19T07:00:18.264Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:20.743Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:20.794Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:20.822Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:21.266Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:21.479Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:21.554Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:21.555Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-19T07:00:25.135Z"}

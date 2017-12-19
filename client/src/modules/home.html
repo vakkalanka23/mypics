@@ -1,0 +1,9 @@
+<template>
+     
+
+    <h1>${message}</h1> 
+    <center><h1 Style = "color:rgb(85, 87, 233)"><b>Priyankas Mypics</b></h1></center>
+    <compose show.bind="showLogin" view="./components/login.html"></compose>
+    <compose show.bind="!showLogin" view="./components/register.html"></compose>
+
+</template>

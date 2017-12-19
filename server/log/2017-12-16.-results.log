@@ -1,0 +1,54 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-16T20:35:23.469Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-16T20:35:23.723Z"}
+{"level":"info","message":"Creating HTTP server on port: 5000","timestamp":"2017-12-16T20:35:23.723Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-16T20:37:51.126Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-16T20:37:51.345Z"}
+{"level":"info","message":"Creating HTTP server on port: 5000","timestamp":"2017-12-16T20:37:51.345Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-16T20:37:51.375Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:10:30.965Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:10:31.009Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-16T21:11:18.907Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-16T21:11:19.193Z"}
+{"level":"info","message":"Creating HTTP server on port: 5000","timestamp":"2017-12-16T21:11:19.193Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-16T21:11:19.233Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-16T21:12:14.296Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-16T21:12:14.492Z"}
+{"level":"info","message":"Creating HTTP server on port: 5000","timestamp":"2017-12-16T21:12:14.492Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-16T21:12:14.528Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:17.188Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:17.218Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:17.220Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:17.997Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:18.020Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:21.043Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:21.055Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:21.056Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:21.265Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:12:21.274Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-16T21:24:01.976Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-16T21:24:02.179Z"}
+{"level":"info","message":"HTTP Server listening on port: 5000, in development mode","timestamp":"2017-12-16T21:24:02.195Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-16T21:24:02.251Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:00.110Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-16T21:51:00.132Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:08.945Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:09.128Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-16T21:51:09.128Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:33.996Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-16T21:51:33.998Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:34.044Z"}
+{"level":"verbose","message":"Upload file for todo 5a3595655397ac30c49db91b and 5a3595445397ac30c49db91a","timestamp":"2017-12-16T21:51:34.288Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:38.508Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-16T21:51:38.508Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:40.094Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:51:51.549Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a3595655397ac30c49db91b","timestamp":"2017-12-16T21:51:51.552Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:54:23.931Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:54:24.077Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-16T21:54:24.078Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:54:30.166Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a3595655397ac30c49db91b","timestamp":"2017-12-16T21:54:30.167Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:54:34.836Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a3595655397ac30c49db91b","timestamp":"2017-12-16T21:54:34.838Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-16T21:54:35.605Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a3595655397ac30c49db91b","timestamp":"2017-12-16T21:54:35.608Z"}

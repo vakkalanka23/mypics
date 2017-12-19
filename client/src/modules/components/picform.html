@@ -1,0 +1,42 @@
+<template>
+	
+	<center><h2 Style = "color:#1f6ee4"><b>Add a picture</b></h2></center>
+    <div  class="container">
+	<div class="card topMargin">
+		<div class="card-body">
+			<span><i click.trigger="back()" class="fa fa-arrow-left fa-lg" 
+				aria-hidden="true"></i></span>
+		</div>
+	</div>	
+	<form>
+
+       
+    
+ 
+		<div class="form">
+			<div class="col">
+				<h3>Click browse to add pictures below</h3>
+				<label class="btn btn-primary">
+						Browse<input type="file" 
+						style="display: none;" 
+						change.delegate="changeFiles()" files.bind="files">
+				</label>
+				<small id="fileHelp" class="form-text text-muted">
+						Upload</small>
+			</div>	
+			<div class="col-8">
+				<ul>
+					<li repeat.for="file of filesToUpload" class="list-group-item">
+						${file.name}<span click.delegate="removeFile($index)" 
+						class="pull-right"><i class="fa fa-trash" aria-hidden="true">
+						</i></span></li>
+				</ul>
+			</div>
+		</div> 
+
+        <button click.trigger="savepic()" class="btn btn-primary">Save</button>
+
+    </Center>
+    </form>
+</div>
+</template>
